@@ -35,4 +35,3 @@
 
 # 5b. Zdefiniuj funkcję, która wylicza największy wspólny dzielnik dwóch liczb - wersja iteracyjna.
     
-print("hello")    
