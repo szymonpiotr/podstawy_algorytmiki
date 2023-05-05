@@ -14,24 +14,22 @@
 # - rekurenjca, rekurencja ogonowa, iteracja
 
 # 1a. Zdefiniuj funkcję silnia, używając standardowej rekurencji.
-
 # 1b. Zdefiniuj funkcję silnia, używając rekurencji ogonowej.
-
 # 1c. Zdefiniuj funkcję silnia, używając iteracji (pętli).
 
 # 2a. Zdefiniuj funkcję zwracającą największy element w liście - wersja iteracyjna.
-
 # 2b. Zdefiniuj funkcję zwracającą największy element w liście - wersja rekurencyjna.
 
 # 3a. Zdefiniuj funkcję odwracającą kolejność elementów w liście - wersja rekurencyjna.
-
 # 3b. Zdefiniuj funkcję odwracającą kolejność elementów w liście - wersja iteracyjna.
 
 # 4a. Zdefiniuj funkcję, która konkatenuje dwie listy - wersja rekurencyjna.
-
 # 4b. Zdefiniuj funkcję, która konkatenuje dwie listy - wersja iteracyjna.
 
-# 5a. Zdefiniuj funkcję, która wylicza największy wspólny dzielnik dwóch liczb - wersja rekurencyjna.
+# 5a. Zdefinuj funkcję, która sprawdza, czy dany element znajduje się na liście - wersja rekurencyjna.
+# 5b. Zdefinuj funkcję, która sprawdza, czy dany element znajduje się na liście - wersja iteracyjna.
 
-# 5b. Zdefiniuj funkcję, która wylicza największy wspólny dzielnik dwóch liczb - wersja iteracyjna.
+# 6a. Zdefiniuj funkcję, która wylicza największy wspólny dzielnik dwóch liczb - wersja rekurencyjna.
+# 6b. Zdefiniuj funkcję, która wylicza największy wspólny dzielnik dwóch liczb - wersja iteracyjna.
+    
     
