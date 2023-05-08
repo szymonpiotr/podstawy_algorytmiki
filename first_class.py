@@ -14,8 +14,26 @@
 # - rekurenjca, rekurencja ogonowa, iteracja
 
 # 1a. Zdefiniuj funkcję silnia, używając standardowej rekurencji.
+def factorial_rec(n):
+    if n==0:
+        return 1
+    else:  
+        return n * factorial_rec(n-1)
 # 1b. Zdefiniuj funkcję silnia, używając rekurencji ogonowej.
+def factorial_tail(n, temp):
+    if n==0:
+        return temp
+    else:
+        return factorial_tail(n-1, n*temp)
 # 1c. Zdefiniuj funkcję silnia, używając iteracji (pętli).
+def factorial_iter(n):
+    if n==0:
+        return 1
+    else:
+        wynik = 1
+        for i in range(1,n+1):
+            wynik = wynik * i 
+        return wynik
 
 # 2a. Zdefiniuj funkcję zwracającą największy element w liście - wersja iteracyjna.
 # 2b. Zdefiniuj funkcję zwracającą największy element w liście - wersja rekurencyjna.
