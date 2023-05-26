@@ -7,11 +7,7 @@
 # apply(function, my_list) = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 
 
-def apply(function, arg):
-    if arg == []:
-        return []
-    else:
-        return [function(arg[0])] + apply(function, arg[1:])
+
 
 
 
