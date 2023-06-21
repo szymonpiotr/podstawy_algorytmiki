@@ -48,6 +48,18 @@ def how_many_nodes(root):
 # funkcję i drzewo etykietowane oraz zamienia etykiety w drzewie używając funkcji "function".
 
 
+def mapTree(function, tree):
+    if tree.left == None and tree.right == None:
+        tree.data = function(tree.data)
+        return tree
+    else:
+        tree.data = function(tree.data)
+        tree.left = mapTree(function, tree.left)
+        tree.right = mapTree(function, tree.right)
+        return tree
+    
+printTree(mapTree(lambda x: x+2, root))
+
 
 class RoseNode:
     def __init__(self,data):
@@ -59,6 +71,15 @@ root1.subtrees = [RoseNode(2),  RoseNode(3), RoseNode(4)]
 
 # Zadanie 2: zdefiniuj funkcję "howManyRose", która bierze RoseTree i zwraca liczbę 
 # wszystkich węzłów tego drzewa. 
+
+def howManyRose(tree):
+    if tree.subtrees == []:
+        return 1
+    else:
+        total = 1
+        for i in tree.subtrees:
+            total += howManyRose(i)
+        return total 
 
 # Zadanie 3: zdefiniuj funkcję "isElementRose(element,tree)", która sprawdza, czy dany element jest na drzewie.
 
